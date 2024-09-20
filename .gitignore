@@ -6,6 +6,7 @@ venv/
 /media
 media/
 .env.*
+.env
 **/__pycache__/
 **/**/__pycache__/*/
 __pycache__/
