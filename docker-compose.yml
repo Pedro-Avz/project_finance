@@ -1,0 +1,11 @@
+version: '3'
+services:
+  project_finance:
+    build: .
+    container_name: project_finance
+    environment:
+      - EMAIL=${EMAIL}
+      - SENHA=${SENHA}
+    volumes:
+      - ./app/src:/app
+    restart: always
