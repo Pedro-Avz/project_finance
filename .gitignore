@@ -1,0 +1,11 @@
+./app/venv
+/venv/
+/venv
+venv/
+/media/
+/media
+media/
+.env.*
+**/__pycache__/
+**/**/__pycache__/*/
+__pycache__/
